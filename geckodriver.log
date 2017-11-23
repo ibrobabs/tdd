@@ -1,0 +1,7 @@
+1511407003462	geckodriver	INFO	Listening on 127.0.0.1:33113
+1511407005486	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1511407009466	Marionette	INFO	Enabled via --marionette
+1511407019891	Marionette	INFO	Listening on port 34841
+1511407019944	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511407020003	Marionette	DEBUG	Register listener.js for window 2147483649
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
