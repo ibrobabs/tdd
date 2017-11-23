@@ -300,3 +300,17 @@
 [Child 10051, Chrome_ChildThread] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-HLWaua/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 [Child 10051, Chrome_ChildThread] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-HLWaua/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 [Child 10051, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HLWaua/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1511436935713	geckodriver	INFO	Listening on 127.0.0.1:38997
+1511436936789	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1511436937409	Marionette	INFO	Enabled via --marionette
+1511436941395	Marionette	INFO	Listening on port 35199
+1511436941421	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511436941492	Marionette	DEBUG	Register listener.js for window 2147483649
+1511436941518	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511436941549	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511436941549	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511436941553	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1511436941566	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+[Child 10745, Chrome_ChildThread] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-HLWaua/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 10745, Chrome_ChildThread] WARNING: pipe error (21): Connection reset by peer: file /build/firefox-HLWaua/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 10745, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HLWaua/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
