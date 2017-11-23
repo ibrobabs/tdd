@@ -53,7 +53,7 @@ class NewVisitorTest(unittest.TestCase):
 
 
         self.check_for_row_in_list_table('1: Buy peaccok feathers')
-        self.check_for_row_in_list_table('1: Buy peaccok feathers to make a fly')
+        self.check_for_row_in_list_table('2: Buy peaccok feathers to make a fly')
 
 
         self.fail('Finish the test')
