@@ -8,9 +8,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'r7wnem*#oy4*rf&u3pv6qu=0!7($w^t)6h=2hunlriwndk#u_q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['ec2-34-237-245-176.compute-1.amazonaws.com','localhost:8000', 'localhost']
+ALLOWED_HOSTS = ['insignakonsult.org']
 
 
 # Application definition
