@@ -10,7 +10,7 @@ SECRET_KEY = 'r7wnem*#oy4*rf&u3pv6qu=0!7($w^t)6h=2hunlriwndk#u_q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['ec2-34-237-245-176.compute-1.amazonaws.com', 'www.insignakonsult.org']
+ALLOWED_HOSTS = ['ec2-34-237-245-176.compute-1.amazonaws.com', 'insignakonsult.org']
 
 
 # Application definition
