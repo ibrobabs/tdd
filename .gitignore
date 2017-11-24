@@ -4,3 +4,4 @@ __pycache__
 dev/geckodriver.log
 geckodriver.log
 ./static
+.env

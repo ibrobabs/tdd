@@ -4,16 +4,13 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
-
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'r7wnem*#oy4*rf&u3pv6qu=0!7($w^t)6h=2hunlriwndk#u_q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-54-174-187-86.compute-1.amazonaws.com',]
+ALLOWED_HOSTS = ['ec2-34-237-245-176.compute-1.amazonaws.com',]
 
 
 # Application definition
