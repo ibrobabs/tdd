@@ -12,7 +12,7 @@ DEBUG = True
 
 # ALLOWED_HOSTS = ['ec2-34-237-245-176.compute-1.amazonaws.com', 'insignakonsult.org']
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
 
 
 # Application definition
