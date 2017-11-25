@@ -1,4 +1,6 @@
 import os
+from unittest import skip
+
 from django.test import LiveServerTestCase
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 
@@ -41,7 +43,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
 
 
 
-
+    # @skip
     def test_can_start_a_list_and_retreive_it_later(self):
 
         self.browser.get(self.live_server_url)
@@ -74,7 +76,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
 
         # self.fail('Finish the test!')
 
-    
+    # @skip
     def test_multiple_users_can_start_lists_at_different_urls(self):
         # Edith starts a new to-do list
         self.browser.get(self.live_server_url)
@@ -122,8 +124,8 @@ class NewVisitorTest(StaticLiveServerTestCase):
 
         # Satisfied, they both go back to sleep
 
-
-    def test_layut_and_styling(self):
+    # @skip
+    def test_layout_and_styling(self):
         # Edith goes to the home page
         self.browser.get(self.live_server_url)
         self.browser.set_window_size(1024, 768)
@@ -147,6 +149,11 @@ class NewVisitorTest(StaticLiveServerTestCase):
             512,
             delta=10
         )
+
+    # @skip
+    def test_cannot_add_empty_list_items(self):
+
+        self.fail("write me!")
         
 
 

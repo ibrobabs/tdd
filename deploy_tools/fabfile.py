@@ -4,10 +4,12 @@ import random
 
 
 REPO_URL = 'https://github.com/ibrobabs/tdd.git'
-
+env.user = "ubuntu"
+env.key_filename = ["/home/ibrokola/Desktop/TDD/anotherweb.pem"]
+env.host = ["ec2-34-237-245-176.compute-1.amazonaws.com"]
 
 def deploy():
-    site_folder = f'/sites/{env.host}'
+    site_folder = f'/{env.user}/sites/{env.host}'
     run(f'mkdir -p {site_folder}')
     with cd(site_folder):
         _get_latest_source()
