@@ -5,12 +5,14 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 
 from .models import Item, List
+from .forms import ItemForm
 
 
 
 
 def home_page(request):
-    return render(request, 'home.html')
+    return render(request, 'home.html', {'form': ItemForm()})
+
 
 
 def new_list(request):
