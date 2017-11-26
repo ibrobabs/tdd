@@ -10,7 +10,7 @@ SECRET_KEY = 'r7wnem*#oy4*rf&u3pv6qu=0!7($w^t)6h=2hunlriwndk#u_q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['superlists-staging.insignakonsult.org']
+ALLOWED_HOSTS = ['superlists-staging.insignakonsult.org','superlists.insignakonsult.org']
 
 # ALLOWED_HOSTS = []
 
