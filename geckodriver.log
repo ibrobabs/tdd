@@ -4658,3 +4658,22 @@ JavaScript error: resource:///modules/FormSubmitObserver.jsm, line 223: TypeErro
 1511980941333	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:54071/404_no_such_url/"
 1511980941601	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54071/"
 1511980941715	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54071/"
+1511986187503	geckodriver	INFO	Listening on 127.0.0.1:48727
+1511986188730	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1511986191505	Marionette	INFO	Enabled via --marionette
+1511986200871	Marionette	INFO	Listening on port 46005
+1511986201259	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511986201325	Marionette	DEBUG	Register listener.js for window 2147483649
+1511986201915	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511986202180	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511986202181	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511986202190	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:51767/404_no_such_url/"
+1511986202199	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:51767/404_no_such_url/"
+1511986202483	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:51767/404_no_such_url/"
+1511986202754	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:51767/404_no_such_url/"
+1511986202757	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:51767/404_no_such_url/"
+1511986203156	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:51767/"
+1511986203159	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:51767/"
+[Child 20832, Chrome_ChildThread] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-HLWaua/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 20832, Chrome_ChildThread] WARNING: pipe error (21): Connection reset by peer: file /build/firefox-HLWaua/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 20832, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HLWaua/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353

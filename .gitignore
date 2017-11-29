@@ -5,3 +5,4 @@ dev/geckodriver.log
 geckodriver.log
 ./static
 .env
+functional_tests/screendumps
