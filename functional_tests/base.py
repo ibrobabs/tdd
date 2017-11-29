@@ -6,6 +6,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import WebDriverException
 
+from .server_tools import reset_database
+
 import unittest
 import time
 
@@ -17,9 +19,10 @@ class FunctionalTest(StaticLiveServerTestCase):
 
     def setUp(self):
         self.browser = webdriver.Firefox()
-        staging_server = os.environ.get('STAGING_SERVER')
-        if staging_server:
-            self.live_server_url = 'http://' + staging_server
+        self.staging_server = os.environ.get('STAGING_SERVER')
+        if self.staging_server:
+            self.live_server_url = 'http://' + self.staging_server
+            reset_database(self.staging_server)
 
     
     def tearDown(self):
@@ -68,7 +71,6 @@ class FunctionalTest(StaticLiveServerTestCase):
         self.browser.find_element_by_link_text('Log out')
      
 
-
     def wait_to_be_logged_out(self, email):
         self.wait_for(
             lambda: self.browser.find_element_by_name('email')
@@ -76,6 +78,13 @@ class FunctionalTest(StaticLiveServerTestCase):
         navbar = self.browser.find_element_by_css_selector('.navbar')
         self.assertNotIn(email, navbar.text)
 
+
+    def add_list_item(self, item_text):
+        num_rows = len(self.browser.find_element_by_css_selector('#id_list_table tr'))
+        self.get_item_input_box().send_keys(item_text)
+        self.get_item_input_box().send_keys(Keys.ENTER)
+        item_number = num_rows + 1
+        self.wait_for_row_in_list_table(f'{item_number}: {item_text}')
 
 
     
